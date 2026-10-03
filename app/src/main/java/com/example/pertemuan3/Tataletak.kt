@@ -103,7 +103,11 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
     Column {
         Box(
             modifier = modifier
-                .fillMaxWidth()) {
+                .fillMaxWidth()
+                .height(height = 110.dp)
+                .background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ) {
             Column() {
                 Row(
                     modifier = modifier.fillMaxWidth(),
@@ -125,7 +129,13 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
         }
         Spacer(modifier = Modifier.height(10.dp))
         Box(
-            modifier = modifier.fillMaxWidth()){
+            modifier = modifier
+                .fillMaxWidth()
+                .height(height = 300.dp)
+                .background(color = Color.Cyan),
+            contentAlignment = Alignment.Center
+        ) {
+
         }
     }
 }
