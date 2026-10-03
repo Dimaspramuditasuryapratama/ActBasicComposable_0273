@@ -81,6 +81,16 @@ fun Tugas(modifier: Modifier = Modifier) {
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
-            )}
+            )
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            // Foto bulat dengan border putih
+            Image(
+                painter = painterResource(id = R.drawable.pemancing),
+                contentDescription = null,
+                contentScale = ContentScale.Fit,
+                )
+        }
     }
 }
