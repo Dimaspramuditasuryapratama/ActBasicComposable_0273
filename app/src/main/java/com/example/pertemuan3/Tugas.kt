@@ -90,7 +90,12 @@ fun Tugas(modifier: Modifier = Modifier) {
                 painter = painterResource(id = R.drawable.pemancing),
                 contentDescription = null,
                 contentScale = ContentScale.Fit,
-                )
+                modifier = Modifier
+                    .size(290.dp)
+                    .clip(CircleShape)
+                    .background(Color(0xFFE8E8F4))
+                    .border(width = 3.dp, color = Color.White, shape = CircleShape)
+            )
         }
     }
 }
