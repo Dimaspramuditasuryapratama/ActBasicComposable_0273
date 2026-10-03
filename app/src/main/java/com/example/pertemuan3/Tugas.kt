@@ -35,6 +35,12 @@ fun Tugas(modifier: Modifier = Modifier) {
             modifier = Modifier.fillMaxSize()
         )
 
-
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            }
     }
 }
