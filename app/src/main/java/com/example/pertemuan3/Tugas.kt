@@ -60,6 +60,27 @@ fun Tugas(modifier: Modifier = Modifier) {
                 painter = painterResource(id = R.drawable.logo),
                 contentDescription = "Logo Pemancing",
                 modifier = Modifier.size(140.dp)
+            )
+
+            Spacer(modifier = Modifier.height(60.dp))
+
+            Text(
+                text = "Nama",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+            Text(
+                text = "Dimas Pramudita Surya Pratama",
+                fontSize = 15.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
+            Text(
+                text = "20240140273",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
             )}
     }
 }
