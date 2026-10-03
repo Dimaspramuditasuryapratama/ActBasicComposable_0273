@@ -22,3 +22,19 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun Tugas(modifier: Modifier = Modifier) {
+    Box(modifier = modifier.fillMaxSize()) {
+
+        // Latar belakang
+        Image(
+            painter = painterResource(id = R.drawable.latar),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
+
+    }
+}
