@@ -51,6 +51,15 @@ fun Tugas(modifier: Modifier = Modifier) {
                 text = "Ini adalah halaman login,",
                 fontSize = 14.sp,
                 color = Color.Black
+            )
+
+            Spacer(modifier = Modifier.height(40.dp))
+
+            // Logo Pemancing
+            Image(
+                painter = painterResource(id = R.drawable.logo),
+                contentDescription = "Logo Pemancing",
+                modifier = Modifier.size(140.dp)
             )}
     }
 }
