@@ -68,19 +68,19 @@ fun Tugas(modifier: Modifier = Modifier) {
                 text = "Nama",
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Black
+                color = Color.Cyan
             )
             Text(
                 text = "Dimas Pramudita Surya Pratama",
                 fontSize = 15.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Black
+                color = Color.Yellow
             )
             Text(
                 text = "20240140273",
                 fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
-                color = Color.Black
+                color = Color.Red
             )}
     }
 }
